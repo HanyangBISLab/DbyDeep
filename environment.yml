@@ -1,0 +1,11 @@
+name: env_dbydeep
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - pip=22.2.2
+  - scikit-learn
+  - pandas
+  - pip:
+    - tensorflow==2.4.0
+    - ahocorapy==1.6.1
